@@ -18,7 +18,6 @@ const Backdrop = () => {
       rotation={[Math.PI / 2, 0, 0]}
       position={[0, 0, -0.14]}
     >
-      {/* <ambientLight intensity={2} /> */}
       <RandomizedLight
         amount={4}
         radius={9}
